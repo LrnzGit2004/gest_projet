@@ -1,0 +1,32 @@
+# Dépendances
+node_modules/
+/client/node_modules/
+/digital-solutions-api/node_modules/
+
+# Environnement
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de montage
+dist/
+dist-ssr/
+client/dist/
+
+# Configuration d'outils
+.vscode/
+.idea/
+.gemini/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
